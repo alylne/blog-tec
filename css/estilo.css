@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+/*======================== layout =============================*/
+#cabecalho {
+	background: #f7b600;
+	padding: 15px;
+	text-align: center;
+}
+
+#logo, #menu {
+	padding: 10px;
+
+}
+/*=================== formataçao menu ========================*/
+
+.menu {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+
+a:link, visited { /*Links não visitados e visitados*/
+	color: white;
+}
+
+a:hover, active{ /*Links hover:; passar o cursor sobre o link/ links ativos: quando clicado*/
+	color: #f7b600;
+	background: white;
+}
+
+/*=================== formataçao geral ========================*/
+
+h1 {
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+.branco{
+	color: white;
+}
+
+h2 {
+	color: #f7b600;
+}
+
+h3 {
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+
+a {
+	color: #f7b600;
+	text-decoration: none;
+}
+/*=========================== posts ============================*/
+
+#principal {
+	padding: 15px;
+	width: 900px;
+	margin: 0 auto;
+}
+#posts {
+	width: 650px;
+	float: left;
+}
+
+.post1 {
+	background: white;
+	width: 600px;
+	color: black;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.data {
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+
+#lateral{
+	width: 250px;
+	float: right;
+}
+
+.post2 {
+	padding: 10px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.conteudo2 {
+	padding: 10px;
+	font-size: 0.8em;
+	border-bottom: 1px dotted #CCC;
+
+}
+
+#rodape {
+	background: #CCC;
+	text-align: center;
+	padding: 15px;
+	clear: both;
+
+}
+
+
